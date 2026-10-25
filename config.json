@@ -1,0 +1,70 @@
+{
+  "HEALTH_REGION": [
+    98,
+    1027,
+    325,
+    1040
+  ],
+  "ARMOR_REGION": [
+    96,
+    1014,
+    326,
+    1026
+  ],
+  "BASE_INTENSITY": 1,
+  "MAX_INTENSITY": 5,
+  "INTENSITY_PER_GAP": 0.15,
+  "FULL_THRESHOLD": 99.0,
+  "CHECK_INTERVAL": 0.2,
+  "HOLD_PULSE_TIME": 1.0,
+  "CHANNEL": "A",
+  "region": [
+    101,
+    1018,
+    323,
+    1040
+  ],
+  "armor_region": [
+    100,
+    1017,
+    324,
+    1030
+  ],
+  "health_region": [
+    101,
+    1028,
+    321,
+    1038
+  ],
+  "armor_threshold": 30.0,
+  "armor_intensity": 50,
+  "health_threshold": 98.0,
+  "health_intensity": 70,
+  "mode": "continuous",
+  "interval_sec": 3.0,
+  "target_colors": {
+    "blue": [
+      104,
+      143,
+      255
+    ],
+    "purple": [
+      193,
+      123,
+      250
+    ],
+    "gold": [
+      246,
+      193,
+      67
+    ],
+    "red": [
+      255,
+      70,
+      70
+    ]
+  },
+  "advertise_host": "",
+  "ws_port": 5678,
+  "server_url": ""
+}
